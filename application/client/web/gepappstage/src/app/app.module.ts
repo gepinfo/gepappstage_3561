@@ -24,9 +24,21 @@ import { SefscreenModule } from './sefscreen/sefscreen.module';
 
 @NgModule({
   declarations: [
-                  AppComponent
+                          AppComponent
 ],
   imports: [
+  SefscreenModule,
+VaultadminModule,
+ManagecontrolModule,
+ManageusersModule,
+ManagerolesModule,
+AuthorizationModule,
+  SefscreenModule,
+VaultadminModule,
+ManagecontrolModule,
+ManageusersModule,
+ManagerolesModule,
+AuthorizationModule,
   SefscreenModule,
 VaultadminModule,
 ManagecontrolModule,
@@ -72,6 +84,18 @@ ManageusersModule,
 ManagecontrolModule,
 VaultadminModule,
   SefscreenModule,
+AuthorizationModule,
+ManagerolesModule,
+ManageusersModule,
+ManagecontrolModule,
+VaultadminModule,
+  SefscreenModule,
+AuthorizationModule,
+ManagerolesModule,
+ManageusersModule,
+ManagecontrolModule,
+VaultadminModule,
+  SefscreenModule,
 LoginModule,
 SignupModule,
 HomeModule,
@@ -84,7 +108,7 @@ VaultadminModule,
 SefscreenModule
 ],
   providers: [
-              	SharedService
+                      	SharedService
 ],
   bootstrap: [
   ]
